@@ -77,12 +77,12 @@ document.querySelector("#slider").addEventListener("change", function() {
 
 document.querySelector("#vintage").addEventListener("click", function() {
 	console.log("I am in old school")
-    bd = document.querySelector("body")
-    bd.classList.add("oldSchool")
+    var vid = document.querySelector("video")
+    vid.classList.add("oldSchool")
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
 	console.log("I am in original")
-    bd = document.querySelector("body")
-    bd.classList.remove("oldSchool")
+    var vid = document.querySelector("video")
+    vid.classList.remove("oldSchool")
 });
